@@ -1,0 +1,78 @@
+[INFO    ] ebp.agent.pc: Agent pc advertising on port 8008
+[INFO    ] ebp.agent.pc: Agent pc (id=f619afff) starting on 0.0.0.0:8008
+INFO:     Started server process [50778]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8008 (Press CTRL+C to quit)
+INFO:     127.0.0.1:34932 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52818 - "POST /v1/stage/load HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37384 - "POST /v1/session/start HTTP/1.1" 200 OK
+Missing keys (will use default): 133 keys
+INFO:     127.0.0.1:37390 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54296 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36000 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36010 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36018 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36030 - "POST /v1/session/end HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34932 - "GET /v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41922 - "POST /v1/stage/load HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36198 - "POST /v1/session/start HTTP/1.1" 200 OK
+Missing keys (will use default): 133 keys
+INFO:     127.0.0.1:36212 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51478 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51480 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51484 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36172 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36174 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36186 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36190 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36204 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36220 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36228 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36242 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36246 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36260 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33130 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33138 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33154 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33156 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33172 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33186 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33202 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33204 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33216 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59730 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59740 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59750 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59756 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59764 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59770 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59782 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59788 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60096 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60102 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60106 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60120 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60128 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60142 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60144 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60146 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60154 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60160 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35724 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35738 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35744 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35750 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35762 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35774 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35776 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35780 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39628 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39634 - "POST /v1/session/end HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34204 - "POST /v1/stage/load HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41808 - "POST /v1/session/start HTTP/1.1" 200 OK
+Missing keys (will use default): 133 keys
+INFO:     127.0.0.1:41816 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33000 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47286 - "POST /v1/inference/forward HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47298 - "POST /v1/session/end HTTP/1.1" 200 OK

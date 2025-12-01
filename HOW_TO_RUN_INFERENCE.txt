@@ -1,0 +1,26 @@
+==========================================
+HOW TO RUN INFERENCE
+==========================================
+
+1. START SERVICES
+   ./scripts/manage.sh start
+   ssh abdoulaye@172.20.10.2 'cd ~/LLM_project && ./start_pi_agent.sh'
+   ./scripts/manage.sh status
+
+2. RUN COORDINATOR (if plan.json doesn't exist)
+   source .venv/bin/activate
+   python -m ebp.coordinator_main \
+     --model-path /home/abdoulaye/myenv/my_models/Qwen2.5-1.5B-Instruct \
+     --urls "http://127.0.0.1:8008,http://172.20.10.2:8008" \
+     --pipeline-order "pc,pi" \
+     --mem-fraction 0.40 \
+     --package
+
+3. RUN INFERENCE
+   python run_inference.py \
+     --plan plan.json \
+     --prompt "Your prompt here" \
+     --max-tokens 50 \
+     --temperature 0.7
+
+See INFERENCE.md for detailed options.
